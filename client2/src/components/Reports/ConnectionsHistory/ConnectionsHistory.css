@@ -1,0 +1,46 @@
+
+.ac-container {
+    max-width: 95%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ebfbfd;
+    }
+    
+    .ac-heading {
+    color: #333;
+    font-size: xx;
+    margin-bottom: 20px;
+    }
+    
+    .ac-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+    
+    .ac-table th,
+    .ac-table td {
+    border: 1px solid #808080;
+    padding: 12px;
+    text-align: left;
+    }
+    
+    .ac-table th {
+    background-color: #aed9e0;
+    }
+    
+    .ac-list-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e3f6f8;
+    }
+    
+    @media screen and (max-width: 768px) {
+    .ac-container {
+        max-width: 100%;
+    }
+    }

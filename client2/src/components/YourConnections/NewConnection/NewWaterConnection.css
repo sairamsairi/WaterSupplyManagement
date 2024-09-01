@@ -1,0 +1,214 @@
+/* 
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #a9d8f7;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 60%;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.modal-content input{
+  border-radius: 10px;
+  background-color: #f5fbff;
+}
+
+.connection-form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.close {
+  color: #022a43;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-icon{
+  text-decoration: none;
+  color: #6d6d6d;
+}
+
+.close-icon:hover,
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submit-button{
+  background-color: #022a43;
+  border-radius: 55px;
+}
+
+.submit-button:hover{
+  background-color: #0f517a;
+}
+   */
+
+
+
+
+
+
+
+
+/* NewWaterConnection.css */
+
+.new-connection-container {
+  /* display: flex; */
+  height: max-content;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.map-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-container {
+  flex: 1;
+  margin-right: 20px;
+  padding: 30px;
+}
+
+.map-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 80px;
+  height:max-content;
+  background-color: #faf5eb;
+}
+
+.map-rules h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.map-rules ol {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: larger;
+}
+
+.checkbox label {
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-left: 30px; */
+  font-size: medium;
+  /* border: 2px solid black; */
+  margin-left: 30px;
+  display: flex;
+  width:max-content;
+  font-size: medium;
+}
+
+.checkbox input {
+  /* transform: scale(0.4);
+  margin-left: -20px; */
+  /* appearance: none; */
+  width: 22px;
+  height: 22px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* .checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: medium;
+}
+
+.checkbox-label input {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox-label input:checked::before {
+  content: '\2713';
+  display: flex;
+  line-height: 25px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #000;
+}
+
+.checkbox-label .checkbox-text {
+  user-select: none;
+} */
+
+
+
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.connection-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.submit-button {
+  background-color: #022a43;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0f517a;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* .map{
+  z-index: 1000;
+} */

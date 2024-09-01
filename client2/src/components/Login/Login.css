@@ -1,0 +1,30 @@
+.login-form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: 900;
+    color: #024670;
+}
+
+.form-group{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form > .login-btn{
+    width: 400px;
+    background-color: #207fba;
+}
+
+#login-form > .login-btn:hover{
+    background-color: #36a9f0;
+    border-color: black;
+}

@@ -1,0 +1,154 @@
+.whole{
+margin-top: 100px;
+}
+/* .btn{
+padding: 100px;
+} */
+/* .worker {
+display: block;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+margin-top: 200px;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.worker-content {
+background-color: #fefefe;
+margin: 10% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 50%;
+height: 90%;
+border-radius: 10px;
+line-height: 30px;
+}
+.worker-content input{
+border-radius: 10px;
+margin:13px 0;
+} */
+.close {
+color: red;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+margin-right:0.8rem;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* h2 {
+font-size:500px;  
+} */
+
+.work_btn{
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:1rem;
+}
+
+
+.worker_btn{
+/* display:flex;
+justify-content:center;
+align-items:center;
+place-content:center;
+text-align:center; */
+width:250px;
+margin-top:2rem;
+background-color: #000000;
+color:#00ffff;
+
+}
+
+.worker-content{
+border:1px solid #333;
+border-radius:15px;
+width:700px;
+height:475px;
+display:flex;
+margin:auto;
+box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+background-color:#052f49;
+}
+
+.worker-form{
+width:700px;
+margin:auto;
+
+margin-top:1.8rem;
+padding-left:1rem;
+padding-right:0.7rem;
+}
+
+.work_inp{
+margin-bottom:0.6rem;
+display:flex;
+position:relative;
+}
+
+.work_inp label{
+position:absolute;
+left:1rem;
+top:0.6rem;
+color:#00ffff;
+transform:translateY(-50%);
+padding:0px;
+pointer-events: none;
+transition: .5s;
+}
+
+.work_inp input{
+background:transparent;
+color:white;
+outline:none;
+margin-bottom:16px;
+}
+
+.work_inp input:focus~label,
+.work_inp input:valid~label{
+top:0px;
+background: #052f49;
+font-size: 16px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.submit_work-button{
+width:200px;
+margin-top:1.0rem;
+margin-right:5rem;
+color:#00ffff;
+}
+.work_btn1{
+margin-left:14rem;
+margin-top:0;
+}
+
+.worker_drop{
+position:relative;
+}
+
+.worker_drop::before{
+content:'';
+position:absolute;
+top:-0.7rem;
+right:49%;
+height:22px;
+width:22px;
+transform:rotate(45deg);
+border-left:1px solid #333;
+border-top:1px solid #333;
+background-color: #022a43;
+}

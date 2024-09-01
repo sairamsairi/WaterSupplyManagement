@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    font-family: 'verdana','Bree Serif', "serif";
+    /* background-color: #7bccff; */
+}
+.about-info{
+    width: 100%;
+    height: auto;
+    background-color: #515151;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.water-img{
+    margin: 1rem 3rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+    box-shadow: 6px 6px 8px #2e2e2f;
+    
+    
+}
+h1,p{
+    margin: 2rem;
+}
+.image{
+    width: 100%;
+}
+

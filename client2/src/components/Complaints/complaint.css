@@ -1,0 +1,42 @@
+
+.complaints-container {
+    max-width: 90vw;
+    margin: 5px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #cbf3fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+    color: #00619e;
+}
+
+.complaints-container h1{
+  color: #043756;
+}
+.complaint {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 2px solid #013d58;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+
+.complaint button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  width: fit-content;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #022a43;
+  transition: background-color 0.3s ease;
+}
+
+.complaint button:hover {
+  color: black;
+  background-color: #6abff4;
+  border: 0.5px solid black;
+}
